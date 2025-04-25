@@ -2,7 +2,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import logo from "/assets/logo.png";
 import Theme from "../themeControler/Theme";
 import SearchInput from "../search/SearchInput";
-import { useAuth } from "../../context/data/myState";
+import { useAuth } from "../../context/data/MyState";
 import { useEffect, useRef } from "react";
 
 const Navbar = () => {
