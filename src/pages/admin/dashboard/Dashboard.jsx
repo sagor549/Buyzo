@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { collection, getDocs, query, orderBy, limit, deleteDoc, doc } from 'firebase/firestore';
 import { firestore } from '../../../firebase/firebase';
-import { useAuth } from '../../../context/data/myState';
+import { useAuth } from '../../../context/data/MyState';
 import DeleteProduct from '../DeleteProduct';
 
 const Dashboard = () => {
