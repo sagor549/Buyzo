@@ -19,7 +19,7 @@ import EditProduct from './pages/admin/EditProduct';
 import ProductsList from './pages/admin/ProductsList';
 
 // Auth Components
-import { AuthProvider } from './context/data/myState';
+import { AuthProvider } from './context/data/MyState';
 import Admin from './components/accounts/Admin';
 import Signup from './components/accounts/Signup';
 import Login from './components/accounts/Login';
