@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { firestore } from '../../firebase/firebase';
-import { useAuth } from '../../context/data/myState';
+import { useAuth } from '../../context/data/MyState';
 
 const EditProduct = () => {
   const { productId } = useParams();
